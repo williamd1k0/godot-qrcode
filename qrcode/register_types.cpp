@@ -6,7 +6,7 @@
 #include "qrcodemodule.h"
 
 void register_qrcode_types() {
-    ClassDB::register_class<QRCodeTexture>();
+	ClassDB::register_class<QRCodeTexture>();
 }
 
 void unregister_qrcode_types() {
